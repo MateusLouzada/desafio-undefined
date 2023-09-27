@@ -1,12 +1,13 @@
 ﻿using Desafio_Undefined.Models;
 using Desafio_Undefined.Repositories.Interfaces;
-using Microsoft.AspNetCore.Http;
+using System.Web.Http.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Desafio_Undefined.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class PokemonController : ControllerBase
     {
         private readonly IPokemonRepositorie _pokemonRepositorie;
