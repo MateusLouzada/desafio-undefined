@@ -36,7 +36,7 @@ namespace Desafio_Undefined
 
             app.UseCors(options =>
             {
-                options.WithOrigins("http://localhost:5173");
+                options.WithOrigins("http://localhost:5173", "http://localhost:4200");
                 options.AllowAnyMethod();
                 options.AllowAnyHeader();
             });
