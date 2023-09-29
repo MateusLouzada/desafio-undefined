@@ -1,4 +1,4 @@
-# Gerenciador de Livros
+# Pokedex
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MateusLouzada/front-books/blob/main/LICENCE) 
 
 # Sobre o projeto
