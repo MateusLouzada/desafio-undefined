@@ -18,7 +18,7 @@ O projeto é um desafio técnico para a vaga de engenheiro de software na empres
 
 ```bash
 # clonar repositório
-git clone https://github.com/MateusLouzada/api-books.git
+git clone https://github.com/MateusLouzada/desafio-undefined-back.git
 
 Abrir a solução do projeto
 
